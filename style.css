@@ -1,0 +1,164 @@
+  body {
+            background-color: #121212;
+            /* Dark background */
+            color: #e0e0e0;
+            /* Light text */
+            font-family: sans-serif;
+            background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201028/pngtree-abstract-technology-background-technical-electric-image_443494.jpg);
+            margin: 0;
+            display: flex;
+            height: 100vh;
+            gap: 5PX;
+            scrollbar-width: none;
+        }
+
+
+        html {
+            scrollbar-width: none;
+        }
+
+        .sidebar {
+            width: 250px;
+            margin: 5px;
+            border-radius: 20px;
+            background-color: rgba(25, 25, 25, 0.9);
+            /* Darker sidebar with slight transparency */
+            padding: 20px;
+            box-sizing: border-box;
+            backdrop-filter: blur(0px);
+            /* Glassmorphism effect */
+            border-right: 1px solid rgba(255, 255, 255, 0.053);
+            /* Subtle border */
+            overflow: auto;
+            scrollbar-width: none;
+            border: 1px solid white;
+
+        }
+
+        .sidebar h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar li {
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .sidebar li:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .content {
+            border-radius: 20px;
+            flex: 1;
+            padding: 40px;
+            height: 100vh;
+            width: 585px;
+            overflow: auto;
+            box-sizing: border-box;
+            backdrop-filter: blur(10px);
+            /* Glassmorphism effect */
+            background-color: rgba(25, 25, 25, 0.9);
+            /* Darker content area with slight transparency */
+            scrollbar-width: none;
+            scroll-behavior: smooth;
+            margin: 5px;
+            border: 1px solid white;
+        }
+
+        .content h1 {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            line-height: 1.6;
+        }
+
+        .right-panel {
+            width: 300px;
+            background-color: rgba(25, 25, 25, 0.9);
+            /* Darker right panel with slight transparency */
+            padding: 20px;
+            box-sizing: border-box;
+            backdrop-filter: blur(10px);
+            /* Glassmorphism effect */
+            border-left: 1px solid rgba(255, 255, 255, 0.1);
+            /* Subtle border */
+        }
+
+        .right-panel h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        /* Additional styles for the star icon */
+        .star-icon {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            font-size: 24px;
+            color: #e0e0e0;
+            cursor: pointer;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .jscode {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            background-color: #2d3846;
+            margin: 1rem 0;
+
+        }
+
+        .jscode code {
+            padding: 1rem;
+            overflow: auto;
+           
+            line-height: 2;
+            color: white;
+            background-color: #2d3846;
+            border-radius: 6px;
+            font-size: 1.2rem;
+        }
+
+        .op {
+            font-size: 1.2rem;
+        }
+
+        .styled-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 18px;
+            text-align: left;
+          }
+          .styled-table th, .styled-table td {
+            padding: 12px;
+            border: 2px solid #dddddd1b;
+          }
+          .styled-table th {
+            background-color: #f4f4f451;
+            color: rgb(255, 255, 255);
+          }
+          .styled-table tr:nth-child(even) {
+            background-color: #f9f9f91e;
+            color: rgb(255, 255, 255);
+            
+          }
